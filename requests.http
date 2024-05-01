@@ -1,0 +1,30 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "resident evil 7",
+    "fecha": 2017,
+    "genero": "terror"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+
+###
+GET http://localhost:9000/api/users/ HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/users/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "resident evil 7",
+    "fecha": 2017,
+    "genero": "terror"
+}
+
+###
+DELETE http://localhost:9000/api/users/ HTTP/1.1
